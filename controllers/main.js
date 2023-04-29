@@ -1,4 +1,5 @@
 const mongodb = require('../db/connect');
+const ObjectId = require('mongodb').ObjectId;
 
 const getContacts = async (req, res, next) => {
     const result = await mongodb.getDb().db('professionals').collection('contacts').find();
@@ -9,11 +10,11 @@ const getContacts = async (req, res, next) => {
 };
 
 const getContact = async (req, res, next) => {
-    const id = req.query.id;
-    const result = await mongodb.getDb().db('professionals').collection('contacts').find({ id: id});
+    const id = new ObjectId(req.params.id);
+    const result = await mongodb.getDb().db('professionals').collection('contacts').find({ _id: id});
     result.toArray().then((contact) => {
         res.setHeader('Content-Type', 'application/json');
-        res.status(200).json(contact);
+        res.status(200).json(contact[0]);
     });
 }
 

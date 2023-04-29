@@ -1,8 +1,8 @@
 ###
 GET http://localhost/8080/contacts
 ###
-GET http://localhost/8080/contact?id=1 
+GET http://localhost/8080/contacts/644d86a190cd212f750ef9be
 ###
-GET http://localhost/8080/contact?id=2
+GET http://localhost/8080/contacts/644d86a190cd212f750ef9bf
 ###
-GET http://localhost/8080/contact?id=3
+GET http://localhost/8080/contacts/644d86a190cd212f750ef9c0

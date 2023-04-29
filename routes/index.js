@@ -6,6 +6,6 @@ const mainController = require('../controllers/main');
 
 router.get('/contacts', mainController.getContacts);
 
-router.get('/contact?id=:id', mainController.getContact);
+router.get('/contacts/:id', mainController.getContact);
 
 module.exports =  router;
