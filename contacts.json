@@ -1,0 +1,23 @@
+[
+    {
+        "firstName": "Billy",
+        "lastName": "Estella",
+        "email": "billyestella@email.com",
+        "favoriteColor": "black",
+        "birthday": "03/02/1990"
+    },
+    {
+        "firstName": "Kenzo",
+        "lastName": "Tenma",
+        "email": "kenzotenma@email.com",
+        "favoriteColor": "brown",
+        "birthday": "04/22/1985"
+    },
+    {
+        "firstName": "Johan",
+        "lastName": "Liebert",
+        "email": "johanliebert@email.com",
+        "favoriteColor": "white",
+        "birthday": "01/10/1998"
+    }
+]

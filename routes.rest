@@ -1,0 +1,7 @@
+GET http://localhost/8080/contacts
+
+# http://localhost/8080/contact?id=1 
+# sample route with query params
+
+https://cse341-2023-1opp.onrender.com
+# Render link
