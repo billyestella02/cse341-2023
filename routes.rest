@@ -6,3 +6,11 @@ GET http://localhost/8080/contacts/644d86a190cd212f750ef9be
 GET http://localhost/8080/contacts/644d86a190cd212f750ef9bf
 ###
 GET http://localhost/8080/contacts/644d86a190cd212f750ef9c0
+###
+GET https://week02.onrender.com/contacts
+###
+GET https://week02.onrender.com/contacts/644d86a190cd212f750ef9be
+###
+GET https://week02.onrender.com/contacts/644d86a190cd212f750ef9bf
+###
+GET https://week02.onrender.com/contacts/644d86a190cd212f750ef9c0
