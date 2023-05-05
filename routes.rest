@@ -35,11 +35,23 @@ content-type: application/json
 }
 ###
 PUT http://localhost/8080/contacts/645396271394eecc72b83869
+content-type: application/json
+
+{
+    "favoriteColor": "gray",
+    "birthday": "11/11/2011"
+}
+###
+PUT http://localhost/8080/contacts/645396271394eecc72b8386a
+content-type: application/json
+
+{
+    "favoriteColor": "gray",
+    "birthday": "11/11/2011"
+}
 ###
 DELETE http://localhost/8080/contacts/645396271394eecc72b8386a
 ###
 DELETE http://localhost/8080/contacts/645396271394eecc72b83868
 ###
 DELETE http://localhost/8080/contacts/645396271394eecc72b83869
-###
-PUT http://localhost/8080/contacts/645396271394eecc72b8386a
