@@ -1,16 +1,30 @@
 ###
 GET http://localhost/8080/contacts
 ###
-GET http://localhost/8080/contacts/644d86a190cd212f750ef9be
+GET http://localhost/8080/contacts/645396271394eecc72b83868
 ###
-GET http://localhost/8080/contacts/644d86a190cd212f750ef9bf
+GET http://localhost/8080/contacts/645396271394eecc72b83869
 ###
-GET http://localhost/8080/contacts/644d86a190cd212f750ef9c0
+GET http://localhost/8080/contacts/645396271394eecc72b8386a
 ###
 GET https://week02.onrender.com/contacts
 ###
-GET https://week02.onrender.com/contacts/644d86a190cd212f750ef9be
+GET https://week02.onrender.com/contacts/645396271394eecc72b83868
 ###
-GET https://week02.onrender.com/contacts/644d86a190cd212f750ef9bf
+GET https://week02.onrender.com/contacts/645396271394eecc72b83869
 ###
-GET https://week02.onrender.com/contacts/644d86a190cd212f750ef9c0
+GET https://week02.onrender.com/contacts/645396271394eecc72b8386a
+###
+POST http://localhost/8080/contacts
+###
+PUT http://localhost/8080/contacts/645396271394eecc72b83868
+###
+PUT http://localhost/8080/contacts/645396271394eecc72b83869
+###
+DELETE http://localhost/8080/contacts/645396271394eecc72b8386a
+###
+DELETE http://localhost/8080/contacts/645396271394eecc72b83868
+###
+DELETE http://localhost/8080/contacts/645396271394eecc72b83869
+###
+PUT http://localhost/8080/contacts/645396271394eecc72b8386a
