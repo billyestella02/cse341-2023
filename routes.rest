@@ -16,8 +16,23 @@ GET https://week02.onrender.com/contacts/645396271394eecc72b83869
 GET https://week02.onrender.com/contacts/645396271394eecc72b8386a
 ###
 POST http://localhost/8080/contacts
+content-type: application/json
+
+{
+	"firstName": "Erwin",
+	"lastName": "Smith",
+	"email": "erwinsmith@email.com",
+	"favoriteColor": "gold",
+	"birthday": "02/23/1988"
+}
 ###
 PUT http://localhost/8080/contacts/645396271394eecc72b83868
+content-type: application/json
+
+{
+    "favoriteColor": "gray",
+    "birthday": "11/11/2011"
+}
 ###
 PUT http://localhost/8080/contacts/645396271394eecc72b83869
 ###

@@ -43,7 +43,10 @@ const updateContact = async (req, res, next) => {
         .getDb()
         .db('professionals')
         .collection('contacts')
-        .updateOne({ _id: id }, { $set: { birthday: '07/07/2007' } });
+        .updateOne(
+            { _id: id }, 
+            { $set: { favoriteColor: req.body.favoriteColor, birthday: req.body.birthday } }
+        );
     res.status(204).json(result);
 }
 
