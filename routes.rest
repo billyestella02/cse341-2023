@@ -33,25 +33,30 @@ content-type: application/json
     "favoriteColor": "gray",
     "birthday": "11/11/2011"
 }
-###
-PUT http://localhost/8080/contacts/645396271394eecc72b83869
-content-type: application/json
 
-{
-    "favoriteColor": "gray",
-    "birthday": "11/11/2011"
-}
-###
-PUT http://localhost/8080/contacts/645396271394eecc72b8386a
-content-type: application/json
-
-{
-    "favoriteColor": "gray",
-    "birthday": "11/11/2011"
-}
-###
-DELETE http://localhost/8080/contacts/645396271394eecc72b8386a
-###
 DELETE http://localhost/8080/contacts/645396271394eecc72b83868
+
+### RENDER
+POST https://week03.onrender.com/contacts/
+content-type: application/json
+
+{
+	"firstName": "Erwin",
+	"lastName": "Smith",
+	"email": "erwinsmith@email.com",
+	"favoriteColor": "gold",
+	"birthday": "02/23/1988"
+}
+
 ###
-DELETE http://localhost/8080/contacts/645396271394eecc72b83869
+PUT https://week03.onrender.com/contacts/645396271394eecc72b83868
+content-type: application/json
+
+{
+    "favoriteColor": "gray",
+    "birthday": "11/11/2011"
+}
+
+###
+DELETE https://week03.onrender.com/contacts/645396271394eecc72b83868
+
